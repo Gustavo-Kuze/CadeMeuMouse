@@ -1,4 +1,4 @@
-![alt text](https://github.com/Gustavo-Kuze/ShakeAndFind/blob/master/git_resources/imgs/ShakeAndFind_Ico.png "ShakeAndFind Icon")
+![alt text](https://github.com/Gustavo-Kuze/ShakeAndFind/blob/master/git_resources/imgs/ShakeAndFind_Ico.png =250x250 "ShakeAndFind Icon")
 # ShakeAndFind - README
 
 ## Welcome to ShakeAndFind README page!
