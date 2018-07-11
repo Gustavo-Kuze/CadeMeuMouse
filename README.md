@@ -1,3 +1,4 @@
+![alt text](https://github.com/Gustavo-Kuze/ShakeAndFind/blob/master/git_resources/imgs/ShakeAndFind_Ico.png "ShakeAndFind Icon")
 # ShakeAndFind - README
 
 ## Welcome to ShakeAndFind README page!
@@ -10,3 +11,6 @@ _____
 
 ### O que é?
 #### **ShakeAndFind** é um utilitário de Desktop, Windows Forms, programado em CSharp, projetado para funcionar de maneira semelhante ao localizador do mouse do MAC OS "El Captain", que amplifica o mouse quando o usuário o sacode.
+
+
+
