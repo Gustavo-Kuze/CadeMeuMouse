@@ -1,10 +1,10 @@
 # ShakeAndFind - README
-_____
 
 ## Welcome to ShakeAndFind README page!
 
 ### What is It?
 #### **ShakeAndFind** is a Windows Forms Desktop utility, programmed in CSharp, designed to work like "El Captain" MAC OS's mouse locator, which zooms the mouse in when the user is shaking It.
+_____
 
 ## Bem-vindo à página README do ShakeAndFind!
 
