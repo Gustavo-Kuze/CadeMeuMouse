@@ -1,5 +1,5 @@
 
-<img width="200" height="200" alt="ShakeAndFind-Logo" src="https://github.com/Gustavo-Kuze/ShakeAndFind/blob/master/git_resources/imgs/ShakeAndFind_Ico.png">
+<img width="180" height="180" alt="ShakeAndFind-Logo" src="https://github.com/Gustavo-Kuze/ShakeAndFind/blob/master/git_resources/imgs/ShakeAndFind_Ico.png">
 
 # ShakeAndFind - README
 
