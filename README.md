@@ -1,6 +1,8 @@
 
 <img width="180" height="180" alt="ShakeAndFind-Logo" src="https://github.com/Gustavo-Kuze/CadeMeuMouse/blob/master/git_resources/imgs/ShakeAndFind_Ico.png">
 
+# **Projeto ainda inacabado**
+
 # CadeMeuMouse - README
 
 ## Welcome to CadeMeuMouse README page!
