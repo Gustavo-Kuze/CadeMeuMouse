@@ -9,6 +9,10 @@ namespace CadeMeuMouse.Settings
         
         internal static SettingsModel createSettingsIfNeeded()
         {
+            if(!Directory.Exists (Application.StartupPath + "\\resources\\settings\\"))
+            {
+                Directory.CreateDirectory(Application.StartupPath + "\\resources\\settings\\");
+            }
             if (!File.Exists(Application.StartupPath + "\\resources\\settings\\cademeumouse.json"))
             {
                 SettingsModel model = new SettingsModel();
