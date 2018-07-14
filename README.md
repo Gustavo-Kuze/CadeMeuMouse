@@ -1,7 +1,7 @@
 
 <img width="180" height="180" alt="ShakeAndFind-Logo" src="https://github.com/Gustavo-Kuze/CadeMeuMouse/blob/master/git_resources/imgs/ShakeAndFind_Ico.png">
 
-# **Projeto ainda inacabado**
+<h2 style="color: red;">Projeto ainda inacabado</h2>
 
 # CadeMeuMouse - README
 
