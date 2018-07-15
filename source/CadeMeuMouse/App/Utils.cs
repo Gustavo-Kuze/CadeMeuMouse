@@ -69,31 +69,3 @@ namespace CadeMeuMouse.App
         }
     }
 }
-
-
-//old catch
-//if(System.Globalization.CultureInfo.CurrentCulture.Name == "pt-BR")
-//{
-//    if(MessageBox.Show("Não foi possível criar a chave no registro do Windows, você deseja reiniciar o programa como administrador?", 
-//        "Erro: Permissão negada", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-//    {
-//        System.Diagnostics.ProcessStartInfo info = new System.Diagnostics.ProcessStartInfo();
-//        info.FileName = Application.ExecutablePath;
-//        info.Verb = "runas";
-//        System.Diagnostics.Process.Start(info);
-//        System.Environment.Exit(0);
-//    }
-//}
-//else
-//{
-//    if (MessageBox.Show("Impossible to create the key at Windows registry, do You want to restart the program as administrator?",
-//        "Error: Access denied ", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-//    {
-//        System.Diagnostics.ProcessStartInfo info = new System.Diagnostics.ProcessStartInfo();
-//        info.FileName = Application.ExecutablePath;
-//        info.Verb = "runas";
-//        System.Diagnostics.Process.Start(info);
-//        System.Environment.Exit(0);
-//    }
-//}
-//MessageBox.Show(ex.Message);
