@@ -1,0 +1,6 @@
+
+
+Time_14:54:45>>> Não existe valor com este nome.
+   em System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   em Microsoft.Win32.RegistryKey.DeleteValue(String name)
+   em CadeMeuMouse.App.Utils.startProgramWithWindows(Boolean isChecked) na G:\Users\GS2N\Desktop\only projects for testing\CadeMeuMouse\CadeMeuMouse\CadeMeuMouse\App\Utils.cs:linha 39

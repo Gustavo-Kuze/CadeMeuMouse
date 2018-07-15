@@ -55,8 +55,7 @@
     <Compile Include="App\Logger.cs" />
     <Compile Include="App\Utils.cs" />
     <Compile Include="App\Win32API.cs" />
-    <Compile Include="Behavior\Controller.cs" />
-    <Compile Include="Behavior\Helper.cs" />
+    <Compile Include="PointerBehavior\Controller.cs" />
     <Compile Include="GUI\FrmAbout.cs">
       <SubType>Form</SubType>
     </Compile>

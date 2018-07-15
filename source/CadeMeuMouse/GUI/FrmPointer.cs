@@ -15,7 +15,7 @@ namespace CadeMeuMouse.GUI
 
         private void FrmCursor_Load(object sender, EventArgs e)
         {
-            Behavior.Helper.IsEnabled = true; // pointer enabled to animate on shake
+            App.Utils.IsEnabled = true; // pointer enabled to animate on shake
             loadPointerImageIntoPictureBox();
             createScannerThread();
             createPointerMoverThread();
@@ -27,13 +27,16 @@ namespace CadeMeuMouse.GUI
             Thread pointerMoverThread = App.Utils.startNewBackgroundThread(() =>
             {
 
-                while (Behavior.Helper.IsEnabled == true && App.Info.IsRunning == true)
+                while (App.Utils.IsEnabled == true && App.Info.IsRunning == true)
                 {
-                    Behavior.Controller.moveCursor();
+                    if (App.Utils.IsEnabled)
+                    {
+                        PointerBehavior.Controller.moveCursor();
+                    }
                     Thread.Sleep(1);
                 }
             });
-        } 
+        }
         #endregion
 
         #region Create scanner thread
@@ -42,25 +45,25 @@ namespace CadeMeuMouse.GUI
         {
             Thread scannerThread = App.Utils.startNewBackgroundThread(() =>
             {
-                while (Behavior.Helper.IsEnabled == true && App.Info.IsRunning == true)
+                while (App.Utils.IsEnabled == true && App.Info.IsRunning == true)
                 {
-                    if (Behavior.Controller.isShowTime())
+                    if (PointerBehavior.Controller.isShowTime())
                     {
-                        Behavior.Controller.animatePointer(picMouse);
+                        PointerBehavior.Controller.animatePointer(picMouse);
                         Thread.Sleep(Settings.Runtime.Loaded.EnabledTime); //remain on the screen
                     }
                     else
                     {
-                        Behavior.Controller.hidePointerForm();
+                        PointerBehavior.Controller.hidePointerForm();
                     }
-                    if (Behavior.Helper.IsSystemCursorHidden)
+                    if (App.Utils.IsSystemCursorHidden)
                     {
                         try
                         {
                             Invoke(new MethodInvoker(() =>
                             {
                                 Cursor.Show();
-                                Behavior.Helper.IsSystemCursorHidden = false;
+                                App.Utils.IsSystemCursorHidden = false;
                             }));
                         }
                         catch (Exception ex)
@@ -104,8 +107,8 @@ namespace CadeMeuMouse.GUI
 
         private void FrmCursor_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Behavior.Helper.IsEnabled = false;
-            if (Behavior.Helper.IsSystemCursorHidden)
+            App.Utils.IsEnabled = false;
+            if (App.Utils.IsSystemCursorHidden)
             {
                 try
                 {

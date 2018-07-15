@@ -45,7 +45,7 @@ namespace CadeMeuMouse.GUI
             {
                 if (ev.Button == MouseButtons.Left)
                 {
-                    if (Behavior.Helper.IsEnabled == true)
+                    if (App.Utils.IsEnabled == true)
                     {
                         disable();
                     }
@@ -118,7 +118,7 @@ namespace CadeMeuMouse.GUI
         {
             Bitmap map = (Bitmap)Image.FromFile(Application.StartupPath + "\\resources\\imgs\\mouse_cursor_disabled.png");
             nIcon.Icon = Icon.FromHandle(map.GetHicon());
-            var pointerInstance = Behavior.Helper.getCursorInstance();
+            var pointerInstance = App.Utils.getCursorInstance();
             pointerInstance.Close();
         }
 

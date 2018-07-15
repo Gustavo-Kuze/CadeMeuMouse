@@ -6,7 +6,6 @@ namespace CadeMeuMouse.Settings
 {
     internal class Parser
     {
-        
         internal static SettingsModel createSettingsIfNeeded()
         {
             if(!Directory.Exists (Application.StartupPath + "\\resources\\settings\\"))
@@ -22,7 +21,7 @@ namespace CadeMeuMouse.Settings
                 model.CursorImagePath = Application.StartupPath + "\\resources\\imgs\\mouse_cursor.png";
                 model.CursorAnimationStartSize = 35;
                 model.CursorAnimationEndSize = 100;
-                model.OpenAtStartup = true;
+                model.OpenAtStartup = false;
 
 
                 string json = JsonConvert.SerializeObject(model);
