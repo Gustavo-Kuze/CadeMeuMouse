@@ -18,7 +18,7 @@ _**This project is in final state of development and Its documentation might not
 **CadeMeuMouse** is a Windows Forms Desktop utility, programmed in CSharp, designed to work like "El Captain" MAC OS's mouse locator, which zooms the mouse in when the user is shaking It.
 
 ## Warning
-This is an experimental project, for studying porpuses only. The software is being developed entirely by me, <a href="https://github.com/Gustavo-Kuze/">Gustavo Kuze</a>, to put my knowledge to the test. The program comes with no waranties of any kind. The code is **not** being distributed aiming for profits, but if You are planning to use any parts of It in a personal project, I would be honored to receive due credits from You.
+This is an experimental project, for studying purposes only. The software is being developed entirely by me, <a href="https://github.com/Gustavo-Kuze/">Gustavo Kuze</a>, to put my knowledge to the test. The program comes with no waranties of any kind. The code is **not** being distributed aiming for profits, but if You are planning to use any parts of It in a personal project, I would be honored to receive due credits from You.
 
 
 
